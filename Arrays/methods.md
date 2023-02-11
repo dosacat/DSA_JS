@@ -1,3 +1,8 @@
+    var test = {
+        1:"uo",
+        2:"89"
+        "j":"po"
+    }
     entries() 	Returns a key/value pair Array Iteration Object
     every() 	Checks if every element in an array pass a test
     
@@ -12,7 +17,8 @@
     isArray() 	Checks whether an object is an array
     join() 	Joins all elements of an array into a string
 
-    keys() 	Returns a Array Iteration Object, containing the keys of the original array
+    Object.keys(test) 	Returns a Array Iteration Object, containing the keys of the original array
+    Object.values(test)
     
     map() 	Creates a new array with the result of calling a function for each array element
     pop() 	Removes the last element of an array, and returns that element
