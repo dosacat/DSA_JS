@@ -1,5 +1,12 @@
   const arr = [1,2,3,4,5,6]
   
+  * First and Last Index in sorted Array  
+  * Find Peak 
+  * First Bad Version 
+
+Binary Search has Time Complexity of O(logN)
+Space Complexity O(1)
+  
   ITERATIVE METHOD:  
   
       function find(x){
