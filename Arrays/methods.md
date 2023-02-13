@@ -39,6 +39,7 @@
     sort() 	Sorts the elements of an array
 
     splice() 	Adds/Removes elements from an array
+    to add test.splice(index,0,elem) // adds elem to index position
 
     toString() 	Converts an array to a string, and returns the result
    

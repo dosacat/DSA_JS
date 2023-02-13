@@ -2,5 +2,8 @@
 
     1. Binary Search O(logN)
     
-    2. Spread Operator, For - Iterations:
+    2. Spread Operator, For, Unshift, .Map, Reverse, Splicing - Iterations:
     (...Array) - O(N) - as long as inputted array
+
+
+   
