@@ -20,7 +20,10 @@
     Object.keys(test) 	Returns a Array Iteration Object, containing the keys of the original array
     Object.values(test)
     
-    map() 	Creates a new array with the result of calling a function for each array element
+    test.map((elem,index)=>elem+index) 	Creates a new array with the result of calling a function for each array element
+
+    test.map(elem=>elem**2)
+
     pop() 	Removes the last element of an array, and returns that element
 
     prototype 	Allows you to add properties and methods to an Array object
