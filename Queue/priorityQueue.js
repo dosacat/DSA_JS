@@ -1,11 +1,11 @@
 //For priority queue, only queuing will also accept an index.
 
-class Queue{
-    constructor(){
+function Queue(){
+    
         var array = [];
-    }
+    
 
-    queue(elem){
+    function queue(elem){
     if (this.isEmpty()) {
         array.push(newMem);
             } 

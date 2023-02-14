@@ -1,8 +1,8 @@
 class Queue{
     constructor(){
-        storage={}
-        front=0
-        end=0
+        this.storage={}
+        this.front=0
+        this.end=0
     }
 
     queue(elem){
