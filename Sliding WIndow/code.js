@@ -33,11 +33,19 @@ function maxSumArr(arr, num) {
     let maxSum = 0;
     let tempSum = 0;
     if(arr.length < num) return null;
+  
+  // find initial sum of first k elements
     for(let i = 0; i < num; i++) {
        tempSum += arr[i];
     }
     maxSum = tempSum;
+  // iterate the array once
+  // and increment the right edge
     for(let i = num; i < arr.length; i++) {
+      
+      // compare if sum is more than max,
+      // if yes then replace
+      // max with new sum value
        tempSum = tempSum - arr[i - num] + arr[i];
        maxSum = Math.max(tempSum, maxSum);
        }      
