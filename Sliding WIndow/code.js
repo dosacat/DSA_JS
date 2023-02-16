@@ -1,3 +1,7 @@
+// Note: To identify the sliding window questions the word Consecutive/Contiguous is the biggest clue to crack the problem.
+
+
+
 //BRUTE FORCE O(N^3)
 function unique(str,num){
   an=0
