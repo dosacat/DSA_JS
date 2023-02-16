@@ -18,4 +18,10 @@ function unique(str,num){
 
 unique("aaabdsdhs",3)
 
+//Sliding window to replace nesting of two loops into one loop. Reduces time complexity from O(N^2) to O(N).
+
+There are 2 variations in the technique:-  
+* Fixed size window.  
+* Variable size window.  
+
 
