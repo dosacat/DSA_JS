@@ -8,3 +8,5 @@ String methods
     SPLIT -test.split(""),
     SPLIT BY SPACES-test.split(" "),
     CHARACTER -test.charAt(5),
+    SLICE- creates a shallow coppy
+    SPLICE - alters original
