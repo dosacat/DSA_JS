@@ -4,6 +4,7 @@ class Node {
     this.left = left;
     this.right = right;
   }
+}
 
 class BST {
   constructor() {
